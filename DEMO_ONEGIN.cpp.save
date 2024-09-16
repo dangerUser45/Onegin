@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main ()
+{
+    FILE* fp = NULL;
+    fp =  fopen (Demo.txt, "r+");
+    assert(fp);
+    ch = getc(fp);int count
+    
+    while (ch != EOF)
+    {
+        int count
+    }
+
+
+
+
+
+}
