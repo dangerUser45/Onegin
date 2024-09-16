@@ -22,6 +22,7 @@ void Check_fsize (long fsize);
 void Check_argc (int argc);
 void Address_String (ONEGIN* file);
 void FREE (ONEGIN* file);
+void Print_text (ONEGIN* file);
 
 
 int main (int argc, char* argv[])
@@ -64,19 +65,28 @@ void Strings_Number (ONEGIN* file)
 {
     char* buffer_addr = file-> buffer_addr;
     assert (buffer_addr);
+    buffer_addr[file->fsize] = '#';
+    buffer_addr[(file->fsize)-1] = '\0';
 
-    long string_quantity = 1;
-    while (*buffer_addr != '\0')
+
+    long string_quantity = 0;
+    while (*buffer_addr != '#')
     {
+        if (*buffer_addr == '\r')
+            *buffer_addr = '\0';
+
         if (*buffer_addr == '\n')
             string_quantity++;
         //
-        printf("'%c'", *buffer_addr);
+        printf("/%c\\", *buffer_addr);
         //
         buffer_addr++;
     }
+    //
     printf("\n");
     printf("string_quantity = %ld\n", string_quantity);
+    //
+
     file->string_quantity = string_quantity;
 }
 
@@ -102,16 +112,17 @@ void Read_File (ONEGIN* file)
     assert(buffer_addr);
 
     fread(buffer_addr, sizeof(char), fsize + 1, fp);                                  //заполнил массив
-    buffer_addr[fsize-1] = '\0';                                                      //записал в последний элемент массива '\0'
-    buffer_addr[fsize] = '\n';
 
     fclose (fp);
     assert(fp);
 
      //
 
-     printf("file->fsize = %ld\nbuffer_addr = %p, file->buffer_addr = %p\nbuffer_addr[%ld] = '%c'\n",
-            file->fsize, buffer_addr, file->buffer_addr,fsize, buffer_addr[fsize]);
+     printf("file->fsize = %ld\n", file->fsize);
+     printf("buffer_addr = %p, file->buffer_addr = %p\n", buffer_addr, file->buffer_addr);
+     printf("buffer_addr[0] = /%c\\\n", buffer_addr[0]);
+     printf("\nbuffer_addr[%ld] = /%c\\\n", fsize-1, buffer_addr[fsize-1]);
+     printf("\nbuffer_addr[%ld] = /%c\\\n", fsize,  buffer_addr[fsize]);
     //
 }
 
@@ -131,7 +142,7 @@ void Address_String (ONEGIN* file)
 
     char* buffer_addr = file->buffer_addr;
     long n_string = 0;
-    while(*buffer_addr != '\0')
+    while(*buffer_addr != '#')
     {
         str_addr[n_string] = buffer_addr;
         buffer_addr++;
@@ -142,7 +153,8 @@ void Address_String (ONEGIN* file)
             n_string++;
         }
 
-    }
+    } *buffer
+    
     /**/ printf("n_string = %ld\n", n_string+1);
 
 }
@@ -158,5 +170,5 @@ void FREE (ONEGIN* file)
 
 void Print_text (ONEGIN* file)
 {
-    
+     ;
 }
