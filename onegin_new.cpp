@@ -83,6 +83,7 @@ void Strings_Number (ONEGIN* file)
         buffer_addr++;
     }
     //
+    printf("buffer_addr = %p, file->buffer_addr = %p\n", buffer_addr, file->buffer_addr);
     printf("\n");
     printf("string_quantity = %ld\n", string_quantity);
     //
@@ -141,22 +142,35 @@ void Address_String (ONEGIN* file)
     assert(str_addr);
 
     char* buffer_addr = file->buffer_addr;
-    long n_string = 0;
+    long n_string = 1;
+    str_addr[0] = buffer_addr;
+
+    //
+          printf("Buf_ad = %llu\n", buffer_addr);
+          printf("Str_Ad = %llu\n", str_addr[0]);
+
+    //
     while(*buffer_addr != '#')
     {
-        str_addr[n_string] = buffer_addr;
-        buffer_addr++;
-
         if (*buffer_addr == '\n')
         {
             str_addr[n_string] = (buffer_addr+1);
             n_string++;
         }
-
+        buffer_addr++;
     }
     buffer_addr[file->fsize] = '\n';
 
-    /**/ printf("n_string = %ld\n", n_string+1);
+     //
+    for (int i = 0; i < n_string; i++)
+    {
+        printf("str_addr[i] = %llu\n", str_addr[i]);
+    }
+    //
+        printf("buffer_addr[0] = %llu\n", file->buffer_addr);
+        printf("buffer_addr[1] = %llu\n", (file->buffer_addr)+1);
+
+    /**/ printf("n_string = %ld\n", n_string);
 
 }
 
