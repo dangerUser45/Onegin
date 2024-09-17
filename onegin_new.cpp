@@ -1,4 +1,4 @@
-//#include "TxLib.h"
+#include "TxLib.h"
 #include <stdio.h>
 #include <string.h>
 #include <sys/stat.h>
@@ -78,16 +78,16 @@ void Strings_Number (ONEGIN* file)
 
         if (*buffer_addr == '\n')
             string_quantity++;
-        //
+        /*
         printf("/%c\\", *buffer_addr);
-        //
+        //*/
         buffer_addr++;
     }
-    //
+    /*
     printf("buffer_addr = %p, file->buffer_addr = %p\n", buffer_addr, file->buffer_addr);
     printf("\n");
     printf("string_quantity = %ld\n", string_quantity);
-    //
+    */
 
     file->string_quantity = string_quantity;
 }
@@ -118,14 +118,14 @@ void Read_File (ONEGIN* file)
     fclose (fp);
     assert(fp);
 
-     //
+     /*
 
      printf("file->fsize = %ld\n", file->fsize);
      printf("buffer_addr = %p, file->buffer_addr = %p\n", buffer_addr, file->buffer_addr);
      printf("buffer_addr[0] = /%c\\\n", buffer_addr[0]);
      printf("\nbuffer_addr[%ld] = /%c\\\n", fsize-1, buffer_addr[fsize-1]);
      printf("\nbuffer_addr[%ld] = /%c\\\n", fsize,  buffer_addr[fsize]);
-    //
+    */
 }
 
 void Check_argc (int argc)
@@ -146,11 +146,11 @@ void Address_String (ONEGIN* file)
     long n_string = 1;
     str_addr[0] = buffer_addr;
 
-    //
+    /*
           printf("Buf_ad = %llu\n", buffer_addr);
           printf("Str_Ad = %llu\n", str_addr[0]);
 
-    //
+    */
     while(*buffer_addr != '#')
     {
         if (*buffer_addr == '\n')
@@ -162,7 +162,7 @@ void Address_String (ONEGIN* file)
     }
     buffer_addr[file->fsize] = '\n';
 
-     //
+     /*
     for (int i = 0; i < n_string; i++)
     {
         printf("str_addr[i] = %llu\n", str_addr[i]);
@@ -171,8 +171,8 @@ void Address_String (ONEGIN* file)
         printf("buffer_addr[0] = %llu\n", file->buffer_addr);
         printf("buffer_addr[1] = %llu\n", (file->buffer_addr)+1);
 
-    /**/ printf("n_string = %ld\n", n_string);
-
+     printf("n_string = %ld\n", n_string);
+     */
 }
 
 void FREE (ONEGIN* file)
@@ -194,3 +194,18 @@ void Print_text (ONEGIN* file)
         putchar('\n');
     }
 }
+
+/*void Self_Sort (ONEGIN* file)
+{
+    string_quantity = file->string_quantity
+    for (int i = 1; i < string_quantity; i++)
+        for (int j = 0; j < string_quantity - i; j++)
+            if (strcompare (&text[j * ROWS_QUANTITY], &text[(j + 1) * ROWS_QUANTITY]))
+                swap_string(&text[j * ROWS_QUANTITY], &text[(j + 1) * ROWS_QUANTITY]);
+
+}
+
+void Swap (void* a, void* b)
+{
+    char* temp = calloc ()
+}  */
