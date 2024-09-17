@@ -33,6 +33,7 @@ int main (int argc, char* argv[])
 
     File_Common (&file);
     FREE (&file);
+    Print_text (&file);
     printf("You go to end of main ");
     return 0;
 }
@@ -185,5 +186,11 @@ void FREE (ONEGIN* file)
 
 void Print_text (ONEGIN* file)
 {
-     ;
+    char** str_addr = file->str_addr;
+    long str_quan = file->string_quantity;
+    for (int i = 0; i < str_quan; i++)
+    {
+        fputs (str_addr[i], stdout);
+        putchar('\n');
+    }
 }

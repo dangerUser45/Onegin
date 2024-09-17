@@ -162,7 +162,7 @@ void Address_String (ONEGIN* file)
     buffer_addr[file->fsize] = '\n';
 
      //
-    for (int i = 0; i < n_string+1; i++)
+    for (int i = 0; i < n_string; i++)
     {
         printf("str_addr[i] = %llu\n", str_addr[i]);
     }
@@ -170,7 +170,7 @@ void Address_String (ONEGIN* file)
         printf("buffer_addr[0] = %llu\n", file->buffer_addr);
         printf("buffer_addr[1] = %llu\n", (file->buffer_addr)+1);
 
-    /**/ printf("n_string = %ld\n", n_string+1);
+    /**/ printf("n_string = %ld\n", n_string);
 
 }
 
@@ -185,5 +185,7 @@ void FREE (ONEGIN* file)
 
 void Print_text (ONEGIN* file)
 {
-     ;
+    chastr_addr = file->str_addr;
+    for (int i = 0; i < ; i++)
+        fputs ();
 }
