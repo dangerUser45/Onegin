@@ -3752,3 +3752,1377 @@ Run file:	C:\GitHub\Onegin\a.exe
 Directory:	C:\GitHub\Onegin
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF60499ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6049C38D0 (64-bit), Flags: Cmdre0, Thread: 0x2150 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:41:54
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF60499ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6049C38D0 (64-bit), Flags: Cmdre0, Thread: 0x2150 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:41:54
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x29F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:42:57
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x29F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:42:57
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x1930 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:43:17
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x1930 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:43:18
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x18FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:43:51
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF68891ECD9. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6889438D0 (64-bit), Flags: Cmdre0, Thread: 0x18FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:41:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:43:51
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF61D8FECFC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF61D9238D0 (64-bit), Flags: Cmdre0, Thread: 0x1018 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 06:08:41, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 06:09:00
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF61D8FECFC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF61D9238D0 (64-bit), Flags: Cmdre0, Thread: 0x1018 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 06:08:41, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 06:09:00
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6E2D1ECFC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6E2D438D0 (64-bit), Flags: Cmdre0, Thread: 0x3010 (Main), errno: 42 (Illegal byte sequence). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:14:15, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:14:37
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6E2D1ECFC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6E2D438D0 (64-bit), Flags: Cmdre0, Thread: 0x3010 (Main), errno: 42 (Illegal byte sequence). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:14:15, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:14:37
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7E555ED50. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E55838D0 (64-bit), Flags: Cmdre0, Thread: 0x14B0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:21:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:21:58
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7E555ED50. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E55838D0 (64-bit), Flags: Cmdre0, Thread: 0x14B0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:21:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:21:58
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6BADC38D0 (64-bit), Flags: Cmdre0, Thread: 0x285C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:45:45, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:45:55
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7DB06EE92. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7DB0938D0 (64-bit), Flags: Cmdre0, Thread: 0x2DB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:49:12, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:49:17
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7DB06EE92. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7DB0938D0 (64-bit), Flags: Cmdre0, Thread: 0x2DB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:49:12, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:49:17
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF777FE38D0 (64-bit), Flags: Cmdre0, Thread: 0x1F7C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:51:56, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:52:05
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF73A3BEE92. Попытка прочесть данные по адресу 0x000000023B120BA3 в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF73A3E38D0 (64-bit), Flags: Cmdre0, Thread: 0x18DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:53:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:53:52
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF73A3BEE92. Попытка прочесть данные по адресу 0x000000023B120BA3 в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF73A3E38D0 (64-bit), Flags: Cmdre0, Thread: 0x18DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 16:53:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 16:53:52
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6C2F9EE59. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6C2FC38D0 (64-bit), Flags: Cmdre0, Thread: 0x1658 (Main), errno: 42 (Illegal byte sequence). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:08:32, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:08:48
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6C2F9EE59. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6C2FC38D0 (64-bit), Flags: Cmdre0, Thread: 0x1658 (Main), errno: 42 (Illegal byte sequence). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:08:32, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:08:48
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #2: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main), GetLastError(): 18 (Больше файлов не осталось). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:18
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#17: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB919BD533. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#17: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main), GetLastError(): 127 (Не найдена указанная процедура). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:18
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#17: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB919BD533. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#18: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main), GetLastError(): 127 (Не найдена указанная процедура). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #18: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#19: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #18: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#20: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #19: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#21: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#20: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB919BE414. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#22: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#20: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB919BE414. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#23: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #22: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#25: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main), GetLastError(): 187 (Не найдено указанное имя системного семафора). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #22: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#26: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF64C2038D0 (64-bit), Flags: Cmdre0, Thread: 0x1868 (Main), GetLastError(): 187 (Не найдено указанное имя системного семафора). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:12:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:12:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6385EEE8B. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6386138D0 (64-bit), Flags: Cmdre0, Thread: 0x818 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:51:54, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:52:25
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6385EEE8B. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6386138D0 (64-bit), Flags: Cmdre0, Thread: 0x818 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 17:51:54, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 17:52:25
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF775AE38D0 (64-bit), Flags: Cmdre0, Thread: 0x3BB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 18:04:03, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 18:04:12
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF78B8338D0 (64-bit), Flags: Cmdre0, Thread: 0x2014 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 19:28:47, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 19:28:58
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6671B38D0 (64-bit), Flags: Cmdre0, Thread: 0x1E68 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 19:32:40, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 19:32:47
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7338A38D0 (64-bit), Flags: Cmdre0, Thread: 0xEC4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 19:33:14, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 19:33:35
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF60B7C38D0 (64-bit), Flags: Cmdre0, Thread: 0x2B48 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 19:45:48, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 19:45:53
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7014D38D0 (64-bit), Flags: Cmdre0, Thread: 0x103C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 19:48:11, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 19:48:21
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
