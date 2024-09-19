@@ -1,0 +1,3754 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6BC74ECD0. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6BC7758D0 (64-bit), Flags: Cmdre0, Thread: 0x267C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 21:54:44, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 21:55:07
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF6BC74ECD0. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6BC7758D0 (64-bit), Flags: Cmdre0, Thread: 0x267C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 21:54:44, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 21:55:07
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7A86DEDCC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7A87058D0 (64-bit), Flags: Cmdre0, Thread: 0x2C44 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 21:58:57, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 21:59:25
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FF7A86DEDCC. Попытка прочесть данные по адресу 0xFFFFFFFFFFFFFFFF в модуле C:\GitHub\Onegin\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7A87058D0 (64-bit), Flags: Cmdre0, Thread: 0x2C44 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 21:58:57, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 21:59:25
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6406158D0 (64-bit), Flags: Cmdre0, Thread: 0x1228 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:01:08, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:02:01
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6406158D0 (64-bit), Flags: Cmdre0, Thread: 0x1228 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:01:08, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:02:02
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7794E58D0 (64-bit), Flags: Cmdre0, Thread: 0x34B8 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:22:18, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:22:29
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7794E58D0 (64-bit), Flags: Cmdre0, Thread: 0x34B8 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:22:18, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:22:29
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E18A58D0 (64-bit), Flags: Cmdre0, Thread: 0x23A0 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:29:11, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:30:21
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E18A58D0 (64-bit), Flags: Cmdre0, Thread: 0x23A0 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:29:11, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:30:21
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6E57A58D0 (64-bit), Flags: Cmdre0, Thread: 0x2ED4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:37:32, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:37:41
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6E57A58D0 (64-bit), Flags: Cmdre0, Thread: 0x2ED4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:37:32, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:37:41
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7FE7858D0 (64-bit), Flags: Cmdre0, Thread: 0x3654 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:50:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:51:30
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7FE7858D0 (64-bit), Flags: Cmdre0, Thread: 0x3654 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:50:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:51:30
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0x3A4C (Main), GetLastError(): 1008 (Попытка ссылки на несуществующий токен). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14610:
+
+  14608: 
+  14609: $   ITaskbarList3* taskbar = NULL;
+=>14610:     if (ok) {$ res = Win32::CoCreateInstance (Win32::CLSID_TaskbarList, NULL, CLSCTX_INPROC_SERVER, Win32::IID_ITaskbarList3, (void**) &taskbar); }
+  14611: $   ok &= !!taskbar && (res == S_OK);
+  14612: 
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:09
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0x3A4C (Main), GetLastError(): 1008 (Попытка ссылки на несуществующий токен). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14610:
+
+  14608: 
+  14609: $   ITaskbarList3* taskbar = NULL;
+=>14610:     if (ok) {$ res = Win32::CoCreateInstance (Win32::CLSID_TaskbarList, NULL, CLSCTX_INPROC_SERVER, Win32::IID_ITaskbarList3, (void**) &taskbar); }
+  14611: $   ok &= !!taskbar && (res == S_OK);
+  14612: 
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:09
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0x3A88 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:22
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0x3A88 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:23
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0xB60 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:27
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7028558D0 (64-bit), Flags: Cmdre0, Thread: 0xB60 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:52:37, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:53:28
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF68D5B58D0 (64-bit), Flags: Cmdre0, Thread: 0x279C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:56:48, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:57:06
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF68D5B58D0 (64-bit), Flags: Cmdre0, Thread: 0x279C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:56:48, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:57:07
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6731058D0 (64-bit), Flags: Cmdre0, Thread: 0xD04 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:58:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:58:52
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6731058D0 (64-bit), Flags: Cmdre0, Thread: 0xD04 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 18 2024 22:58:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 18 2024 22:58:52
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF65FFA58D0 (64-bit), Flags: Cmdre0, Thread: 0x1AF4 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 00:55:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 00:55:50
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF65FFA58D0 (64-bit), Flags: Cmdre0, Thread: 0x1AF4 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 00:55:10, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 00:55:50
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF69BE158D0 (64-bit), Flags: Cmdre0, Thread: 0x3C90 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 00:58:41, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 00:58:55
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF69BE158D0 (64-bit), Flags: Cmdre0, Thread: 0x3C90 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14604:
+
+  14602:     #if defined (__ITaskbarList3_INTERFACE_DEFINED__)
+  14603: 
+=>14604: $   HRESULT init = Win32::CoInitialize (NULL);
+  14605: 
+  14606: $   bool ok = true;
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 00:58:41, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 00:58:55
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7195958D0 (64-bit), Flags: Cmdre0, Thread: 0x29B4 (Main), GetLastError(): 1008 (Попытка ссылки на несуществующий токен). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14610:
+
+  14608: 
+  14609: $   ITaskbarList3* taskbar = NULL;
+=>14610:     if (ok) {$ res = Win32::CoCreateInstance (Win32::CLSID_TaskbarList, NULL, CLSCTX_INPROC_SERVER, Win32::IID_ITaskbarList3, (void**) &taskbar); }
+  14611: $   ok &= !!taskbar && (res == S_OK);
+  14612: 
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:06:16, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:06:40
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7195958D0 (64-bit), Flags: Cmdre0, Thread: 0x29B4 (Main), GetLastError(): 1008 (Попытка ссылки на несуществующий токен). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14610:
+
+  14608: 
+  14609: $   ITaskbarList3* taskbar = NULL;
+=>14610:     if (ok) {$ res = Win32::CoCreateInstance (Win32::CLSID_TaskbarList, NULL, CLSCTX_INPROC_SERVER, Win32::IID_ITaskbarList3, (void**) &taskbar); }
+  14611: $   ok &= !!taskbar && (res == S_OK);
+  14612: 
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:06:16, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:06:40
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF72CEE58D0 (64-bit), Flags: Cmdre0, Thread: 0x2CE0 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:31:00, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:31:12
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF72CEE58D0 (64-bit), Flags: Cmdre0, Thread: 0x2CE0 (Main), GetLastError(): 1411 (Класс не существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HRESULT {anonymous}::TX::txSetProgress(double, unsigned int, HWND) at TxLib.h:14623:
+
+  14621:     if (taskbar) {$ taskbar->Release(); }
+  14622: 
+=>14623:     if (init == S_OK) {$ Win32::CoUninitialize(); }
+  14624: 
+  14625:     #endif
+
+# 1 in void {anonymous}::TX::_txCleanup() at TxLib.h:9048:
+
+   9046: $   _txConsole_IsBlinking = false;
+   9047: 
+=> 9048: $   txSetProgress (100, (!_txErrors)? Win32::TBPF_PAUSED : Win32::TBPF_ERROR);
+   9049: 
+   9050: $   txSetWindowsHook (NULL);
+
+# 2 in void {anonymous}::TX::_txOnExit(int) at TxLib.h:8940:
+
+   8938:         }
+   8939: 
+=> 8940: $5  _txCleanup();
+   8941: 
+   8942:     if (retcode != 0)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:31:00, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:31:12
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF775B958D0 (64-bit), Flags: Cmdre0, Thread: 0x15BC. 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:43:44, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:43:56
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF775B958D0 (64-bit), Flags: Cmdre0, Thread: 0x15BC. 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 01:43:44, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Sep 19 2024 01:43:56
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6B6AB38D0 (64-bit), Flags: Cmdre0, Thread: 0x2028. 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:12:24, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:13:03
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6B6AB38D0 (64-bit), Flags: Cmdre0, Thread: 0x2028. 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:12:24, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:13:03
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF69DBD38D0 (64-bit), Flags: Cmdre0, Thread: 0x3F70 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:19:23, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:20:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF69DBD38D0 (64-bit), Flags: Cmdre0, Thread: 0x3F70 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:19:23, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:20:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF72BAD38D0 (64-bit), Flags: Cmdre0, Thread: 0x2250 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:22:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:23:11
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF72BAD38D0 (64-bit), Flags: Cmdre0, Thread: 0x2250 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:22:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:23:11
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7BEB738D0 (64-bit), Flags: Cmdre0, Thread: 0x2AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:25:53, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:27:31
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7BEB738D0 (64-bit), Flags: Cmdre0, Thread: 0x2AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:25:53, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:27:31
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6BD8C38D0 (64-bit), Flags: Cmdre0, Thread: 0x24D0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:35:39, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:35:48
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6BD8C38D0 (64-bit), Flags: Cmdre0, Thread: 0x24D0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:35:39, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:35:48
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6364F38D0 (64-bit), Flags: Cmdre0, Thread: 0x2A5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:44:25, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:44:33
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6364F38D0 (64-bit), Flags: Cmdre0, Thread: 0x2A5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:44:25, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:44:33
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF766E838D0 (64-bit), Flags: Cmdre0, Thread: 0x37FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:51:13
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF766E838D0 (64-bit), Flags: Cmdre0, Thread: 0x37FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:51:14
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF78B2738D0 (64-bit), Flags: Cmdre0, Thread: 0x3054 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:52:09
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF78B2738D0 (64-bit), Flags: Cmdre0, Thread: 0x3054 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:52:09
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF73E9E38D0 (64-bit), Flags: Cmdre0, Thread: 0x87C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:56:24
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF73E9E38D0 (64-bit), Flags: Cmdre0, Thread: 0x87C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:48:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:56:25
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF65D6F38D0 (64-bit), Flags: Cmdre0, Thread: 0x15A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:59:40, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:59:50
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF65D6F38D0 (64-bit), Flags: Cmdre0, Thread: 0x15A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 02:59:40, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 02:59:50
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF77A8638D0 (64-bit), Flags: Cmdre0, Thread: 0x3AB4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:07:49, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:10:24
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF77A8638D0 (64-bit), Flags: Cmdre0, Thread: 0x3AB4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:07:49, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:10:24
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7F1D138D0 (64-bit), Flags: Cmdre0, Thread: 0x37E8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:10:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:12:35
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7F1D138D0 (64-bit), Flags: Cmdre0, Thread: 0x37E8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:10:35, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:12:35
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF799E838D0 (64-bit), Flags: Cmdre0, Thread: 0x1FB8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:20:54, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:21:17
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF799E838D0 (64-bit), Flags: Cmdre0, Thread: 0x1FB8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:20:54, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:21:17
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6235B38D0 (64-bit), Flags: Cmdre0, Thread: 0x2648 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:25:51, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:26:02
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6235B38D0 (64-bit), Flags: Cmdre0, Thread: 0x2648 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:25:51, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:26:02
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6235B38D0 (64-bit), Flags: Cmdre0, Thread: 0x1AA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:25:51, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:26:12
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6235B38D0 (64-bit), Flags: Cmdre0, Thread: 0x1AA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:25:51, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:26:12
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7944738D0 (64-bit), Flags: Cmdre0, Thread: 0x38B0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:31:31, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:31:49
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7944738D0 (64-bit), Flags: Cmdre0, Thread: 0x38B0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:31:31, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:31:50
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7417C38D0 (64-bit), Flags: Cmdre0, Thread: 0x1C28 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:33:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:33:27
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7417C38D0 (64-bit), Flags: Cmdre0, Thread: 0x1C28 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:33:19, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:33:27
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2728 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:36:01
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2728 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:36:01
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x374C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:36:38
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x374C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:36:38
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x3280 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:39:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x3280 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:39:19
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2E3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:40:05
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2E3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:40:05
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2768 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:43:21
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7E85838D0 (64-bit), Flags: Cmdre0, Thread: 0x2768 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:35:30, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:43:22
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7B2B438D0 (64-bit), Flags: Cmdre0, Thread: 0x2938 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:52:22, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:52:37
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF7B2B438D0 (64-bit), Flags: Cmdre0, Thread: 0x2938 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:52:22, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:52:37
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6D00A38D0 (64-bit), Flags: Cmdre0, Thread: 0xCD8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:53:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:53:56
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6D00A38D0 (64-bit), Flags: Cmdre0, Thread: 0xCD8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:53:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:53:56
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6A47938D0 (64-bit), Flags: Cmdre0, Thread: 0x260C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:53:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:58:15
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: #1: Куча была повреждена. (0xC0000374) при выполнении кода по адресу 0x00007FFB91A8F439 в модуле C:\Windows\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+Ой, всё (EXCEPTION_NONCONTINUABLE).
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6A47938D0 (64-bit), Flags: Cmdre0, Thread: 0x260C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 03:53:43, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 03:58:15
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007F0A8FA4A190. Попытка исполнить код по адресу 0x00007F0A8FA4A190. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6262B38D0 (64-bit), Flags: Cmdre0, Thread: 0x2BF4 (Main), GetLastError(): 5 (Отказано в доступе). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:06:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:08:20
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007F0A8FA4A190. Попытка исполнить код по адресу 0x00007F0A8FA4A190. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6262B38D0 (64-bit), Flags: Cmdre0, Thread: 0x2BF4 (Main), GetLastError(): 5 (Отказано в доступе). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:06:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:08:20
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#25: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB91A374CB. Попытка прочесть данные по адресу 0x0000010A00EC6918 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6262B38D0 (64-bit), Flags: Cmdre0, Thread: 0x3F9C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:06:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:08:31
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\GitHub\Onegin\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#25: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00007FFB91A374CB. Попытка прочесть данные по адресу 0x0000010A00EC6918 в модуле C:\Windows\SYSTEM32\ntdll.dll. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x00007FF6262B38D0 (64-bit), Flags: Cmdre0, Thread: 0x3F9C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	TxLib.h
+Compiled:	Sep 19 2024 04:06:58, GNU g++ 14.1.0, std=201703L, MinGW-W64 Runtime 13.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, Debug
+Started:	Sep 19 2024 04:08:31
+
+Run file:	C:\GitHub\Onegin\a.exe
+Directory:	C:\GitHub\Onegin
+
+--------------------------------------------------
