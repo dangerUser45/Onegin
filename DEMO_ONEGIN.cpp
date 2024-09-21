@@ -3,36 +3,70 @@
 #include <sys/stat.h>
 #include <ctype.h>
 
-void Swap (const void* first, const void* second);
+struct STRING
+{
+    char str_addr;
+    char end_addr;
+};
+
+struct ONEGIN
+{
+    int n;
+    STRING* str_data;
+    char* xh;
+};
+
+void func (ONEGIN* file);
+
 
 int main ()
 {
-    int q = 5;
-    int r = 18;
 
-    int* in1 = &q;
-    int* in2 = &r;
-    int** adr1 = &in1;
-    int** adr2 = &in2;
-    printf("in1 = %p\n"
-           "in2 = %p\n", in1, in2);
-    Swap (adr1, adr2);
 
-    printf("in1 = %p\n"
-           "in2 = %p\n", in1, in2);
+    ONEGIN file;
+    func (&file);
 
+    free (file.str_data);
     return 0;
 }
 
-void Swap (const void* first, const void* second)
+void func (ONEGIN* file)
 {
-    assert (first);
-    assert (second);
+    char n1 = 66;
+    char n2 = 67;
+    char n3 = 68;
+    char n4 = 69;
 
-    int** real_first = (int**) first;
-    int** real_second = (int**) second;
+    STRING* str_data = file->str_data = (STRING*)calloc (10, sizeof(STRING));
 
-    int* temp = *real_first;
-    *real_first = *real_second;
-    *real_second = temp;
+    str_data[0].str_addr = n1;
+    str_data[0].end_addr = n2;
+    str_data[1].str_addr = n3;
+    str_data[1].end_addr = n4;
+
+    str_data[9].str_addr = '#';
+                         //file->str_data[0].str_addr = &n1;
+                                                    //file->str_data[0].end_addr = &n2;
+                                                    //
+                                                    //file->str_data[1].str_addr = &n3;
+                                                    //file->str_data[1].end_addr = &n4;
+
+
+
+     printf("adr n1 = %c\n"
+            "adr n2 = c\n"
+            "adr n3 = %c\n"
+            "adr n4 = %c\n", n1, n2, n3, n4);
+    //printf ("file.str_data = %llu\n", file.str_data.str_addr);
+    printf ("file.str_data[0].str_addr = %c\n", str_data[0].str_addr);
+    printf ("file.str_data[0].end_addr = %c\n", str_data[0].end_addr);
+    printf ("file.str_data[1].str_addr = %c\n", str_data[1].str_addr);
+    printf ("file.str_data[1].end_addr = %c\n", str_data[9].str_addr);
+
+    /*
+    printf("sizeof(STRING) = %d\n", sizeof(STRING));
+    printf("sizeof(ONEGIN) = %d\n", sizeof(ONEGIN));
+    printf("sizeof(char*) = %ld\n", sizeof(char*));
+    printf("sizeof(long) = %d", sizeof(long));
+     */
 }

@@ -1,4 +1,4 @@
-//#include "TxLib.h"
+#include "TxLib.h"
 #include <stdio.h>
 #include <string.h>
 #include <sys/stat.h>
@@ -11,12 +11,17 @@
 
 typedef int(*Cmpr_fn_t)(const void*  a, const void* b);
 
+struct STRING
+{
+    char* str_addr;
+    char* end_addr;
+};
 
 struct ONEGIN
 {
     long fsize, string_quantity;
     char* buffer_addr;
-    char** str_addr;
+    STRING* str_data;
     const char * name;
 };
 
@@ -27,27 +32,28 @@ void Read_File (ONEGIN* file);
 void Check_fsize (long fsize);
 void Check_argc (int argc);
 void Address_String (ONEGIN* file);
-void FREE (ONEGIN* file);
+void Free (ONEGIN* file);
 void Print_text (ONEGIN* file);
 void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common);
-void Swap (const void* first, const void* second);
+void Swap (const void* first, const void* second, size_t single_size);
 int My_Strcmp (const char* first_string, const char* second_string);
 int Strcompare (const void*  a, const void* b);
-
-
 
 
 int main (int argc, char* argv[])
 {
     Check_argc (argc);
-    ONEGIN file;
+    ONEGIN file = {};
     file.name = argv[1];
 
     File_Common (&file);
-    Self_Sort (file.str_addr, file.string_quantity, sizeof(char*), Strcompare, &file);
+
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Strcompare);
     Print_text (&file);
-    FREE (&file);
-    printf("You go to end of main ");
+
+    Free (&file);
+
+    printf("You go to end of MAiN, MAN ");
     return 0;
 }
 
@@ -66,11 +72,11 @@ void File_Common (ONEGIN* file)
 }
 
 
-long file_size (const char * name)
+long file_size (const char* name)
 {
     assert(name);
 
-    struct stat stbuf;
+    struct stat stbuf = {};
     stat(name, &stbuf);
     return stbuf.st_size;
 }
@@ -79,7 +85,7 @@ void Strings_Number (ONEGIN* file)
 {
     char* buffer_addr = file-> buffer_addr;
     assert (buffer_addr);
-    
+
     buffer_addr[file->fsize] = '#';
     buffer_addr[(file->fsize)-1] = '\0';
 
@@ -105,6 +111,7 @@ void Check_fsize (long fsize)
     }
 }
 
+//-----------------------------------------------------------------------------
 
 void Read_File (ONEGIN* file)
 {
@@ -124,120 +131,147 @@ void Read_File (ONEGIN* file)
     assert(fp);
 }
 
+//=============================================================================
+
 void Check_argc (int argc)
 {
     if (argc != 2)
     {
-        fprintf (stderr, "Error: the file name was not received");
+        fprintf (stderr, "Error: the file name was not received\n");
         exit(1);
     }
 }
 
+//{----------------------------------------------------------------------------
+//!
+//}----------------------------------------------------------------------------
+
 void Address_String (ONEGIN* file)
 {
-    char** str_addr = file->str_addr = (char**)calloc (file->string_quantity, sizeof(char**));
-    assert(str_addr);
+    STRING* str_data = file->str_data = (STRING*)calloc ((file->string_quantity), sizeof(STRING));
+    assert(str_data);
+    //
+     printf("адрес str_data = %llu\n", str_data);
+    //
 
     char* buffer_addr = file->buffer_addr;
     long n_string = 1;
-    str_addr[0] = buffer_addr;
-
+    str_data[0].str_addr = buffer_addr;
+    //
+     printf("ADDR_string адре 1 строки = %llu "
+            "адрес места куда это помещ =  %llu\n", str_data[0].str_addr, &(str_data[0].str_addr));
+    //
     while(*buffer_addr != '#')
     {
 
         if (*buffer_addr == '\n')
         {
-            str_addr[n_string] = (buffer_addr+1);
+            str_data[n_string].str_addr = buffer_addr+1;
+            //
+             printf("ADDR_string: адрес строки = %llu "
+                    "адрес места куда это помещ = %llu\n", str_data[n_string].str_addr, &(str_data[n_string].str_addr));
+                
+            //
             n_string++;
         }
         buffer_addr++;
     }
     buffer_addr[file->fsize] = '\n';
-    /*
-    printf("кол-во строк - %ld", file->string_quantity);
-     */
 
-     /*
-    for (int i = 0; i < n_string; i++)
-    {
-
-        printf("%d) адрес начала строки - str_addr[i] = %llu\n, адрес где хранится это значение = %llu", i+11, str_addr[i], str_addr + i);
-        printf("\n");
-    }
-     */
-
-     /*
-
-        printf("адрес последнего символа = %llu\n", file->buffer_addr + file->fsize);
-        printf("счётчик = %d\n", n);
-
-     printf("n_string = %ld\n", n_string);
-     printf("\n");
-     */
 }
 
-void FREE (ONEGIN* file)
+void Free (ONEGIN* file)
 {
     free (file->buffer_addr);
-    free (file->str_addr);
+    free (file->str_data);
 
     assert (file->buffer_addr);
-    assert (file->str_addr);
+    assert (file->str_data);
 }
 
 void Print_text (ONEGIN* file)
 {
-    char** str_addr = file->str_addr;
-    long str_quan = file->string_quantity;
-    for (int i = 0; i < str_quan; i++)
+    STRING* str_data = file->str_data;
+    long string_quantity = file->string_quantity;
+    for (int i = 0; i < string_quantity; i++)
     {
-        fputs (str_addr[i], stdout);
+        fputs (str_data[i].str_addr, stdout);
         putchar('\n');
     }
      putchar('\n');
 }
 
 
-void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common, /**/ONEGIN* file)
+void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common)
 {
     assert(Compare_common);
     assert(data);
-    //printf("data = %llu\n", data);
+    printf("Ты дурак\n");
 
-    #define DATA1_ (const char*)data + j * single_size
-    #define DATA2_ (const char*)data + (j+1) * single_size
+    #define DATA1_ ((const char*)data +  j    * single_size)
+    #define DATA2_ ((const char*)data + (j+1) * single_size)
 
-    for (size_t i = 1; i < quantity; i++)
+    /*for (*/size_t i = 1;/*, n = 0; i < quantity; i++) */
         for (size_t j = 0; j < quantity - i; j++)
-        {
+        {   //
+            printf("             адрес строки = %llu ", *(char**)DATA1_);
+            printf("адрес адреса куда это помещ = %llu\n", DATA1_);
+            printf("             адрес строки = %llu ", *(char**)DATA2_);
+            printf("адрес адреса куда это помещ = %llu\n", DATA2_);
+
+            //
+
             if (Compare_common (DATA1_, DATA2_) > 0)
-            Swap (DATA1_, DATA2_);
+            //
+              //printf("пройдено циклов: %d\n", j);
+            //
+            Swap (DATA1_, DATA2_, single_size);
         }
     #undef DATA1_
     #undef DATA2_
+    //
+    printf("Ты реально дурак\n");
+    //
 }
 
-void Swap (const void* first, const void* second)
+void Swap (const void* first, const void* second, size_t single_size)
 {
+    //
+      // printf("begin swap");
+    //
     assert (first);
     assert (second);
 
-    char** real_first = (char**) first;
-    char** real_second = (char**) second;
+    char* buffer = (char*)calloc (single_size, 1);
+    assert(buffer);
 
-    char* temp = *real_first;
-    *real_first = *real_second;
-    *real_second = temp;
+    char* cast_first = (char*) first;
+    char* cast_second = (char*) second;
+
+    *buffer = *cast_first;
+    *cast_first = *cast_second;
+    *cast_second= *buffer;
+
+    //
+     // printf("End swap");
+    //
+
+    free (buffer);
+
 }
 
 int Strcompare (const void*  a, const void* b)
 {
+    //printf("адрес адреса первой строки = %llu\n", a);
+    //printf("адрес адреса второй строки = %llu\n", b);
     assert (a);
     assert (b);
 
     const char* real_a = *(char**) a;
     const char* real_b = *(char**) b;
-
+    //
+      //printf("Вт тут РТРТРТ\n");
+    //
     return My_Strcmp(real_a, real_b);
 }
 
@@ -245,11 +279,16 @@ int My_Strcmp (const char* first_string, const char* second_string)
 {
     assert (first_string);
     assert (second_string);
+    //
+     //printf("first string = %llu", first_string);
+     //printf("second string = %llu", second_string);
 
     int i = 0;
     for (; toupper(first_string[i]) == toupper(second_string[i]); i++)
         if (first_string[i] == '\0')
             return 0;
+      //printf("ОООО\n");
+    //
     return  first_string[i] - second_string[i];
 }
 
