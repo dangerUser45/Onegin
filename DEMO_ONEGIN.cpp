@@ -1,72 +1,65 @@
+#include "TXLib.h"
 #include <stdio.h>
 #include <assert.h>
 #include <sys/stat.h>
 #include <ctype.h>
 
-struct STRING
-{
-    char str_addr;
-    char end_addr;
-};
-
-struct ONEGIN
-{
-    int n;
-    STRING* str_data;
-    char* xh;
-};
-
-void func (ONEGIN* file);
-
+int Strcompare (const void*  a, const void* b);
+int My_Strcmp (const char* first_string, const char* second_string);
+void Swap (const void* first, const void* second, size_t single_size);
 
 int main ()
 {
+    int a = 10, b = 2500000;
+    int* ptr1 = &a;
+    int* ptr2 = &b;
 
 
-    ONEGIN file;
-    func (&file);
+    Swap(ptr1, ptr2, sizeof(int));
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
 
-    free (file.str_data);
     return 0;
 }
-
-void func (ONEGIN* file)
+//=============================================================================
+int Strcompare (const void*  a, const void* b)
 {
-    char n1 = 66;
-    char n2 = 67;
-    char n3 = 68;
-    char n4 = 69;
+    assert (a);
+    assert (b);
 
-    STRING* str_data = file->str_data = (STRING*)calloc (10, sizeof(STRING));
+    const char* real_a = *(char**) a;
+    const char* real_b = *(char**) b;
 
-    str_data[0].str_addr = n1;
-    str_data[0].end_addr = n2;
-    str_data[1].str_addr = n3;
-    str_data[1].end_addr = n4;
+    return My_Strcmp(real_a, real_b);
+}
+//=============================================================================
+int My_Strcmp (const char* first_string, const char* second_string)
+{
+    assert (first_string);
+    assert (second_string);
 
-    str_data[9].str_addr = '#';
-                         //file->str_data[0].str_addr = &n1;
-                                                    //file->str_data[0].end_addr = &n2;
-                                                    //
-                                                    //file->str_data[1].str_addr = &n3;
-                                                    //file->str_data[1].end_addr = &n4;
+    int i = 0;
+    for (; toupper(first_string[i]) == toupper(second_string[i]); i++)
+        if (first_string[i] == '\0')
+            return 0;
+    return  first_string[i] - second_string[i];
+}
+//=============================================================================
+void Swap (const void* first, const void* second, size_t single_size)
+{
+    assert (first);
+    assert (second);
+
+    char* cast_first = (char*) first;
+    char* cast_second = (char*) second;
 
 
-
-     printf("adr n1 = %c\n"
-            "adr n2 = c\n"
-            "adr n3 = %c\n"
-            "adr n4 = %c\n", n1, n2, n3, n4);
-    //printf ("file.str_data = %llu\n", file.str_data.str_addr);
-    printf ("file.str_data[0].str_addr = %c\n", str_data[0].str_addr);
-    printf ("file.str_data[0].end_addr = %c\n", str_data[0].end_addr);
-    printf ("file.str_data[1].str_addr = %c\n", str_data[1].str_addr);
-    printf ("file.str_data[1].end_addr = %c\n", str_data[9].str_addr);
-
-    /*
-    printf("sizeof(STRING) = %d\n", sizeof(STRING));
-    printf("sizeof(ONEGIN) = %d\n", sizeof(ONEGIN));
-    printf("sizeof(char*) = %ld\n", sizeof(char*));
-    printf("sizeof(long) = %d", sizeof(long));
-     */
+    for (int i = 0; i < single_size; i++)
+    {
+        char temp = cast_first[i];
+        cast_first[i] = cast_second[i];
+        cast_second[i] = temp;
+        //printf("temp = %c", temp);
+        //printf("symbol second = <%c>\n", cast_second[i]);
+    }
 }

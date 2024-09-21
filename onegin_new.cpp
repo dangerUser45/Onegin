@@ -8,7 +8,7 @@
 #include <ctype.h>
 #include <locale.h>
 
-#define dbg if(1)
+#define dbg if(0)
 
 typedef int(*Cmpr_fn_t)(const void*  a, const void* b);
 
@@ -23,6 +23,7 @@ struct ONEGIN
     long fsize, string_quantity;
     char* buffer_addr;
     STRING* str_data;
+    STRING* original_data;
     const char * name;
 };
 
@@ -37,9 +38,10 @@ void Free (ONEGIN* file);
 void Print_text (ONEGIN* file);
 void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common);
 void Swap (const void* first, const void* second, size_t single_size);
-int My_Strcmp (const char* first_string, const char* second_string);
-int Strcompare (const void*  a, const void* b);
-
+int Forward_Strcmp (const char* first_string, const char* second_string);
+int Forward_Strcompare (const void*  a, const void* b);
+int Back_Strcompare (const void*  a, const void* b);
+void Save_Original_Data (ONEGIN* file);
 
 int main (int argc, char* argv[])
 {
@@ -51,38 +53,44 @@ int main (int argc, char* argv[])
 
     File_Common (&file);
     dbg {
+        printf("----------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+        printf ("        FILE STRUCT INFORMATION\n");
+        printf("Name of file: \"%s\"\n", file.name);
+        printf("Size of file: %ld\n", file.fsize);
+        printf("String Quantity = %ld\n", file.string_quantity);
+        printf("Buffer Address = %llu\n", file.buffer_addr);
+        printf("String_Data = %llu\n", file.str_data);
         for(int i = 0; i < file.string_quantity; i++)
         {
-            printf("i = %d:\n", i);
-            printf("file.str_data[i].str_addr = %llu\n", file.str_data[i].str_addr);
-            printf("file.str_data[i].end_addr = %llu\n", file.str_data[i].end_addr);
+            printf("number of string = %d:\n", i+1);
+            printf("file.str_data[i].str_addr = %llu, his addr = %llu\n", file.str_data[i].str_addr, &file.str_data[i].str_addr);
+            printf("file.str_data[i].end_addr = %llu, his addr = %llu\n", file.str_data[i].end_addr, &file.str_data[i].end_addr);
         }
+        printf("----------------------------------------------------------------------------------------------------------------------------------------------------------\n");
     }
-
-    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Strcompare);
-    //Print_text (&file);
+    Save_Original_Data (file.str_data);
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
+    Print_text (&file);
 
     Free (&file);
 
-    printf("You go to end of MAiN, MAN ");
+    dbg printf("You go to end of MAiN, MAN ");
     return 0;
 }
-
-
+//=============================================================================
 void File_Common (ONEGIN* file)
 {
     assert(file);
 
     long fsize = file->fsize = file_size (file->name);
-    dbg printf("fsize = %llu", fsize);
+    dbg printf("fsize = %llu\n", fsize);
     Check_fsize (fsize);
     Read_File (file);
 
     Strings_Number (file);
     Address_String (file);
 }
-
-
+//=============================================================================
 long file_size (const char* name)
 {
     assert(name);
@@ -91,7 +99,7 @@ long file_size (const char* name)
     stat(name, &stbuf);
     return stbuf.st_size;
 }
-
+//=============================================================================
 void Strings_Number (ONEGIN* file)
 {
     char* buffer_addr = file-> buffer_addr;
@@ -112,7 +120,7 @@ void Strings_Number (ONEGIN* file)
     }
     file->string_quantity = string_quantity;
 }
-
+//=============================================================================
 void Check_fsize (long fsize)
 {
     if (fsize == 0)
@@ -121,9 +129,7 @@ void Check_fsize (long fsize)
         exit(-1);
     }
 }
-
-//-----------------------------------------------------------------------------
-
+//=============================================================================
 void Read_File (ONEGIN* file)
 {
     assert(file);
@@ -141,9 +147,7 @@ void Read_File (ONEGIN* file)
     fclose (fp);
     assert(fp);
 }
-
 //=============================================================================
-
 void Check_argc (int argc)
 {
     if (argc != 2)
@@ -152,9 +156,7 @@ void Check_argc (int argc)
         exit(1);
     }
 }
-
-//-----------------------------------------------------------------------------
-
+//=============================================================================
 void Address_String (ONEGIN* file)
 {
     STRING* str_data = file->str_data = (STRING*)calloc ((file->string_quantity), sizeof(STRING));
@@ -163,6 +165,7 @@ void Address_String (ONEGIN* file)
     char* buffer_addr = file->buffer_addr;
     long n_string = 1;
     str_data[0].str_addr = buffer_addr;
+    dbg printf("  ADDR_STR str_data = %llu\n", str_data);
     dbg printf("ADDR_STR: adrr begin str = %llu\n", str_data[0].str_addr);
 
     while(*buffer_addr != '#')
@@ -181,11 +184,12 @@ void Address_String (ONEGIN* file)
         buffer_addr++;
     }
     str_data[n_string-1].end_addr = buffer_addr - 1;
+    buffer_addr[file->fsize-1] = '\n';
     buffer_addr[file->fsize] = '\n';
     dbg printf("ADDR_STR: adrr end str = %llu\n", str_data[n_string-1].end_addr);
 
 }
-
+//=============================================================================
 void Free (ONEGIN* file)
 {
     free (file->buffer_addr);
@@ -194,9 +198,10 @@ void Free (ONEGIN* file)
     assert (file->buffer_addr);
     assert (file->str_data);
 }
-
+//=============================================================================
 void Print_text (ONEGIN* file)
 {
+    if (mode == sort)
     STRING* str_data = file->str_data;
     long string_quantity = file->string_quantity;
     for (int i = 0; i < string_quantity; i++)
@@ -204,47 +209,47 @@ void Print_text (ONEGIN* file)
         fputs (str_data[i].str_addr, stdout);
         putchar('\n');
     }
-     putchar('\n');
 }
-
-
+//=============================================================================
 void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common)
 {
     assert(Compare_common);
     assert(data);
     #define DATA1_ ((const char*)data +  j    * single_size)
     #define DATA2_ ((const char*)data + (j+1) * single_size)
-
+     int ct = 1; //delete after
     for (size_t i = 1; i < quantity; i++)
         for (size_t j = 0; j < quantity - i; j++)
         {
+            dbg printf("%d) DATA1_ = %llu, DATA2_ = %llu\n", ct, DATA1_, DATA2_ );
+            dbg ct++;
             if (Compare_common (DATA1_, DATA2_) > 0)
             Swap (DATA1_, DATA2_, single_size);
         }
     #undef DATA1_
     #undef DATA2_
 }
-
+//=============================================================================
 void Swap (const void* first, const void* second, size_t single_size)
 {
     assert (first);
     assert (second);
 
-    char* buffer = (char*)calloc (single_size, 1);
-    assert(buffer);
-
     char* cast_first = (char*) first;
     char* cast_second = (char*) second;
 
-    *buffer = *cast_first;
-    *cast_first = *cast_second;
-    *cast_second= *buffer;
 
-    free (buffer);
-
+    for (int i = 0; i < single_size; i++)
+    {
+        char temp = cast_first[i];
+        cast_first[i] = cast_second[i];
+        cast_second[i] = temp;
+        //printf("temp = %c", temp);
+        //printf("symbol second = <%c>\n", cast_second[i]);
+    }
 }
-
-int Strcompare (const void*  a, const void* b)
+//=============================================================================
+int Forward_Strcompare (const void*  a, const void* b)
 {
     assert (a);
     assert (b);
@@ -252,10 +257,10 @@ int Strcompare (const void*  a, const void* b)
     const char* real_a = *(char**) a;
     const char* real_b = *(char**) b;
 
-    return My_Strcmp(real_a, real_b);
+    return Forward_Strcmp(real_a, real_b);
 }
-
-int My_Strcmp (const char* first_string, const char* second_string)
+//=============================================================================
+int Forward_Strcmp (const char* first_string, const char* second_string)
 {
     assert (first_string);
     assert (second_string);
@@ -266,4 +271,32 @@ int My_Strcmp (const char* first_string, const char* second_string)
             return 0;
     return  first_string[i] - second_string[i];
 }
+//=============================================================================
+void Back_Strcmp (const char* first_string, const char* second_string)
+{
+    assert (first_string);
+    assert (second_string);
 
+}
+//=============================================================================
+void Save_Original_Data (ONEGIN* file)
+{
+    STRING* original_data = (STRING*) calloc (file->string_quantity, sizeof(STRING));
+
+    str_data = file->str_data;
+    long ct = file->string_quantity * (long)sizeof(STRING);
+
+    for (long i = 0; i < ct ; i++)
+        original_data[i] = str_data[i];
+}
+//=============================================================================
+int Back_Strcompare (const void*  a, const void* b)
+{
+    assert (a);
+    assert (b);
+
+    const char* real_a = *(char**) a;
+    const char* real_b = *(char**) b;
+
+    return Back_Strcmp(real_a, real_b);
+}
