@@ -1,6 +1,6 @@
-#define DEBUG 0
+#define DEBUG
 
-//#include "TxLib.h"
+#include "TxLib.h"
 #include <stdio.h>
 #include <string.h>
 #include <sys/stat.h>
@@ -15,7 +15,7 @@
 #define DBG(...)   __VA_ARGS__
 #else
 #define dbg        if (0)
-#define DBG(code)
+#define DBG(...)
 #endif
 
 typedef int(*Cmpr_fn_t)(const void*  a, const void* b);
@@ -48,7 +48,7 @@ void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t
 void Swap (const void* first, const void* second, size_t single_size);
 int Forward_Strcmp (const char* first_string, const char* second_string);
 int Forward_Strcompare (const void*  a, const void* b);
-void Back_Strcmp (const char* first_string, const char* second_string);
+int Back_Strcmp (const char* first_string, const char* second_string);
 int Back_Strcompare (const void*  a, const void* b);
 void Save_Original_Data (ONEGIN* file);
 
@@ -81,13 +81,13 @@ int main (int argc, char* argv[])
 
     Save_Original_Data (&file);
 
-    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
+    //Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
+    //Print_text (&file, file.str_data);
+
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
     Print_text (&file, file.str_data);
 
-    //Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
-    Print_text (&file, file.str_data);
-
-    Print_text (&file, file.original_data);
+    //Print_text (&file, file.original_data);
 
     Free (&file);
 
@@ -224,27 +224,9 @@ void Print_text (ONEGIN* file, STRING* str_data)
         fputs (str_data[i].str_addr, stdout);
         putchar('\n');
     }
+     putchar('\n');
 }
 //=============================================================================
-
-#ifdef DEBUG
-
-    #define DBG(code)  code
-
-#else
-
-#endif
-
-//=============================================================================
-/*
-#define SQR(O)  ((O) * (O))
-int y = SQR (5);
-int y = 5 * 5;
-int y = SQR (2 + 3);
-int y = 2 + 3 * 2 + 3;
-*/
-//=============================================================================
-
 void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t Compare_common)
 {
     assert(Compare_common);
@@ -252,13 +234,13 @@ void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t
     #define DATA1_ ((const char*)data +  j    * single_size)
     #define DATA2_ ((const char*)data + (j+1) * single_size)
 
-    DBG (int ct = 1, cc = 2);
+    DBG (int ct = 1, cc = 2;)
 
     for (size_t i = 1; i < quantity; i++)
         for (size_t j = 0; j < quantity - i; j++)
         {
             DBG (printf("%d) DATA1_ = %llu, DATA2_ = %llu\n", ct, DATA1_, DATA2_ ));
-            dbg ct++;
+            DBG (ct++;)
             if (Compare_common (DATA1_, DATA2_) > 0)
                 Swap (DATA1_, DATA2_, single_size);
         }
@@ -266,81 +248,11 @@ void Self_Sort (const void* data, size_t quantity, size_t single_size, Cmpr_fn_t
     #undef DATA2_
 }
 //=============================================================================
-void SwapByte (const void* first, const void* second, size_t single_size)
-{
-    assert (first);
-    assert (second);
-
-    char* cast_first  = (char*) first; // DNZSR
-    char* cast_second = (char*) second;
-
-    for (int i = 0; i < single_size; i++)
-    {
-        char temp = cast_first[i];
-        cast_first[i] = cast_second[i];
-        cast_second[i] = temp;
-        //printf("temp = %c", temp);
-        //printf("symbol second = <%c>\n", cast_second[i]);
-    }
-}
-//=============================================================================
 void Swap (const void* first, const void* second, size_t single_size)
 {
-    typedef unsigned long long ull_t;
-    assert (first);
-    assert (second);
+    #define min(a, b) ((a) < (b) ? (a) : (b))
 
-    ull_t* cast_first  = (ull_t*) first;
-    ull_t* cast_second = (ull_t*) second;
-    ull_t buffer = 0;
-    int counter = single_size / sizeof(ull_t);
-    int remains = single_size % sizeof(ull_t);
-
-    for (int i = 0; i < counter; i++)
-    {
-        buffer = cast_first[i];
-        cast_first[i] = cast_second[i];
-        cast_second[i] = buffer;
-        //printf("temp = %c", temp);
-        //printf("symbol second = <%c>\n", cast_second[i]);
-    }
-    for(int i = 0; i < remains; i++)
-    {
-        char temp = cast_first[i];
-        cast_first[i] = cast_second[i];
-        cast_second[i] = temp;
-    }
-}
-//=============================================================================
-void Swap (const void* first, const void* second, size_t single_size)
-{
-    typedef unsigned long long ull_t;
-    assert (first);
-    assert (second);
-
-    char* cast_first  = (char*) first;
-    char* cast_second = (char*) second;
-    int bytes_to_copy = single_size;
-
-    while (bytes_to_copy > 0)
-    {
-        ull_t buffer = *(ull_t*)cast_first;
-        *(ull_t*)cast_first = *(ull_t*)cast_second;
-        *(ull_t*)cast_second = buffer;
-
-        bytes_to_copy -= sizeof (ull_t);
-    }
-
-    for(int i = 0; i < remains; i++)
-    {
-        char temp = cast_first[i];
-        cast_first[i] = cast_second[i];
-        cast_second[i] = temp;
-    }
-}
-//=============================================================================
-void Swap (const void* first, const void* second, size_t single_size)
-{
+    static char* buffer = 0;
     if (first == NULL && second == NULL)
     free (buffer);
 
@@ -351,7 +263,7 @@ void Swap (const void* first, const void* second, size_t single_size)
     char* cast_second = (char*) second;
     int   bytes_to_copy = single_size;
 
-    static char* buffer = (char*) calloc (4096, 1);
+    buffer = (char*) calloc (4096, 1);
     while (bytes_to_copy > 0)
     {
         size_t bytes_to_copy_this_time = min (sizeof (buffer), bytes_to_copy);
@@ -365,6 +277,7 @@ void Swap (const void* first, const void* second, size_t single_size)
 
         bytes_to_copy -= bytes_to_copy_this_time;
     }
+    #undef min
 }
 /*
 bytes_to_copy  bytes_to_copy_this_time
@@ -403,11 +316,29 @@ int Forward_Strcmp (const char* first_string, const char* second_string)
     return  first_string[i] - second_string[i];
 }
 //=============================================================================
-void Back_Strcmp (const char* first_string, const char* second_string)
+int Back_Strcmp (const STRING* first_string, const STRING* second_string)
 {
     assert (first_string);
     assert (second_string);
-    // TODO
+
+
+
+    long length1 = first_string->end_addr - first_string->str_addr;
+    long length2 = second_string->end_addr -  second_string->str_addr;
+
+    char* end1 = ((STRING*) first_string)->end_addr;
+    char* end2 = ((STRING*) second_string)->end_addr;
+
+    long min =  length1 < length2 ? length1 : length2;
+
+    int i = 0;
+    for (int cnt = 0; cnt < min; i--, cnt++)
+    {
+        if (toupper(end1[i]) == toupper(end2[i]))
+            continue;
+        return end1[i] - end2[i];
+    }
+    return min - length2;
 }
 //=============================================================================
 void Save_Original_Data (ONEGIN* file)
@@ -421,5 +352,5 @@ int Back_Strcompare (const void*  a, const void* b)
     assert (a);
     assert (b);
 
-    return Back_Strcmp (*(char**) a, *(char**) b);
+    return Back_Strcmp ( (const STRING*) a, (const STRING*) b);
 }
