@@ -4,9 +4,14 @@
 #include <sys/stat.h>
 #include <ctype.h>
 
-int Strcompare (const void*  a, const void* b);
-int My_Strcmp (const char* first_string, const char* second_string);
+struct STRING
+{
+    char* str_addr;
+    char* end_addr;
+};
+
 void Swap (const void* first, const void* second, size_t single_size);
+int Back_Strcmp (const STRING* first_string, const STRING* second_string);
 
 int main ()
 {
@@ -15,34 +20,11 @@ int main ()
     int* ptr2 = &b;
 
 
-    Swap(ptr1, ptr2, sizeof(int));
+    Back_Strcmp ();
     printf("a = %d\n", a);
     printf("b = %d\n", b);
 
     return 0;
-}
-//=============================================================================
-int Strcompare (const void*  a, const void* b)
-{
-    assert (a);
-    assert (b);
-
-    const char* real_a = *(char**) a;
-    const char* real_b = *(char**) b;
-
-    return My_Strcmp(real_a, real_b);
-}
-//=============================================================================
-int My_Strcmp (const char* first_string, const char* second_string)
-{
-    assert (first_string);
-    assert (second_string);
-
-    int i = 0;
-    for (; toupper(first_string[i]) == toupper(second_string[i]); i++)
-        if (first_string[i] == '\0')
-            return 0;
-    return  first_string[i] - second_string[i];
 }
 //=============================================================================
 void Swap (const void* first, const void* second, size_t single_size)
@@ -62,4 +44,27 @@ void Swap (const void* first, const void* second, size_t single_size)
         //printf("temp = %c", temp);
         //printf("symbol second = <%c>\n", cast_second[i]);
     }
+}
+//=============================================================================
+int Back_Strcmp (const STRING* first_string, const STRING* second_string)
+{
+    assert (first_string);
+    assert (second_string);
+
+    long length1 = first_string->end_addr - first_string->str_addr;
+    long length2 = second_string->end_addr -  second_string->str_addr;
+
+    char* end1 = ((STRING*) first_string)->end_addr;
+    char* end2 = ((STRING*) second_string)->end_addr;
+
+    long min =  length1 < length2 ? length1 : length2;
+
+    int i = 0;
+    for (int cnt = 0; cnt < min; i--, cnt++)
+    {
+        if (toupper(end1[i]) == toupper(end2[i]))
+            continue;
+        return end1[i] - end2[i];
+    }
+    return min - length2;
 }

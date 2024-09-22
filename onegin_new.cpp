@@ -1,4 +1,9 @@
-#define DEBUG
+#define __DBACK
+#ifdef __DBACK
+#define __danya_back( ... )  __VA_ARGS__
+#else
+#define __danya_back(...)
+#endif
 
 #include "TxLib.h"
 #include <stdio.h>
@@ -9,6 +14,8 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <locale.h>
+
+#define DEBUG
 
 #ifdef DEBUG
 #define dbg        if (1)
@@ -51,6 +58,7 @@ int Forward_Strcompare (const void*  a, const void* b);
 int Back_Strcmp (const char* first_string, const char* second_string);
 int Back_Strcompare (const void*  a, const void* b);
 void Save_Original_Data (ONEGIN* file);
+__danya_back(void DBG_Print (ONEGIN* file);)
 
 int main (int argc, char* argv[])
 {
@@ -81,9 +89,10 @@ int main (int argc, char* argv[])
 
     Save_Original_Data (&file);
 
-    //Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
     //Print_text (&file, file.str_data);
 
+    __danya_back(DBG_Print (&file);)
     Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
     Print_text (&file, file.str_data);
 
@@ -130,11 +139,11 @@ void Strings_Number (ONEGIN* file)
     {
         if (*buffer_addr == '\r')
             *buffer_addr = '\0';
-        dbg printf("symbol = <%c>, addr = %llu\n", *buffer_addr, buffer_addr);
         if (*buffer_addr == '\n')
             string_quantity++;
         buffer_addr++;
     }
+    __danya_back(DBG_Print (file);)
     file->string_quantity = string_quantity;
 }
 //=============================================================================
@@ -203,6 +212,10 @@ void Address_String (ONEGIN* file)
     str_data[n_string-1].end_addr = buffer_addr - 1;
     buffer_addr[file->fsize-1] = '\n';
     buffer_addr[file->fsize] = '\n';
+    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", buffer_addr[file->fsize-1]);
+    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", buffer_addr[file->fsize-1]);
+    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", file->buffer_addr[file->fsize-1]);
+    dbg printf("buffer_addr[file->fsize] = <%c>\n", file->buffer_addr[file->fsize]);
     dbg printf("ADDR_STR: adrr end str = %llu\n", str_data[n_string-1].end_addr);
 
 }
@@ -321,21 +334,36 @@ int Back_Strcmp (const STRING* first_string, const STRING* second_string)
     assert (first_string);
     assert (second_string);
 
-
-
-    long length1 = first_string->end_addr - first_string->str_addr;
-    long length2 = second_string->end_addr -  second_string->str_addr;
+    long length1 = first_string->end_addr - first_string->str_addr + 1;
+    long length2 = second_string->end_addr -  second_string->str_addr + 1;
 
     char* end1 = ((STRING*) first_string)->end_addr;
     char* end2 = ((STRING*) second_string)->end_addr;
 
     long min =  length1 < length2 ? length1 : length2;
 
+    static int dedlox = 1;
+    __danya_back(printf("cycle ¹%d\n", dedlox);)
+    __danya_back(printf("length1 = %ld\n", length1);)
+    __danya_back(printf("length2 = %ld\n", length2);)
+    __danya_back(printf("min = %ld\n", min);)
+    __danya_back(printf("end1 = %llu\n", end1);)
+    __danya_back(printf("end2 = %llu\n", end2);)
+    __danya_back(printf("symbol of end1 = <%c>\n", *end1);)
+    __danya_back(printf("symbol of end2 = <%c>\n", *end2);)
+
+    dedlox++;
+
+
     int i = 0;
     for (int cnt = 0; cnt < min; i--, cnt++)
     {
         if (toupper(end1[i]) == toupper(end2[i]))
             continue;
+        __danya_back(printf("cnt = %d\n", cnt);)
+
+        __danya_back(printf("<%c> - <%c> = %d\n", end1[i], end2[i], end1[i] - end2[i]);)
+        __danya_back(printf("end1[i] - end2[i] = %d\n", end1[i] - end2[i]);)
         return end1[i] - end2[i];
     }
     return min - length2;
@@ -354,3 +382,22 @@ int Back_Strcompare (const void*  a, const void* b)
 
     return Back_Strcmp ( (const STRING*) a, (const STRING*) b);
 }
+
+__danya_back(void DBG_Print (ONEGIN* file)
+{
+    long fsize = file->fsize;
+
+    printf("=============================================================================\n");
+    for(int i = 0; i < fsize+1; i++)
+        if (file->buffer_addr[i] == '\n')
+            printf("symbol = <\\n>, addr = %llu\n", file->buffer_addr + i);
+        else if(file->buffer_addr[i] == '\r')
+            printf("symbol = <\\r>, addr = %llu\n", file->buffer_addr + i);
+        else if(file->buffer_addr[i] == '\0')
+           printf("symbol = <\\0>, addr = %llu\n", file->buffer_addr + i );
+        else
+        printf("Symbol = <%c>, his addr = %llu\n", file->buffer_addr[i], file->buffer_addr + i);
+    printf("=============================================================================\n");
+})
+
+
