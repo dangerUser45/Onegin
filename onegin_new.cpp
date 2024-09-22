@@ -95,6 +95,7 @@ int main (int argc, char* argv[])
     __danya_back(DBG_Print (&file);)
     Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
     Print_text (&file, file.str_data);
+    __danya_back(printf("IN MAIN\n");)
 
     //Print_text (&file, file.original_data);
 
@@ -210,12 +211,13 @@ void Address_String (ONEGIN* file)
         buffer_addr++;
     }
     str_data[n_string-1].end_addr = buffer_addr - 1;
-    buffer_addr[file->fsize-1] = '\n';
-    buffer_addr[file->fsize] = '\n';
-    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", buffer_addr[file->fsize-1]);
-    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", buffer_addr[file->fsize-1]);
-    dbg printf("buffer_addr[file->fsize-1] = <%c>\n", file->buffer_addr[file->fsize-1]);
-    dbg printf("buffer_addr[file->fsize] = <%c>\n", file->buffer_addr[file->fsize]);
+   file->buffer_addr[file->fsize-1] = '\n';
+   file->buffer_addr[file->fsize] = '\n';
+    dbg printf("addr buffer_addr = %llu\n", buffer_addr);
+    dbg printf("buffer_addr[file->fsize-1] = <%d>\n", buffer_addr[file->fsize-1]);
+    dbg printf("buffer_addr[file->fsize-1] = <%d>\n", buffer_addr[file->fsize-1]);
+    dbg printf("file->buffer_addr[file->fsize-1] = <%d>\n", file->buffer_addr[file->fsize-1]);
+    dbg printf("file->buffer_addr[file->fsize] = <%d>\n",   file->buffer_addr[file->fsize]);
     dbg printf("ADDR_STR: adrr end str = %llu\n", str_data[n_string-1].end_addr);
 
 }
