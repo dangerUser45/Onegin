@@ -1,8 +1,9 @@
-#define __DBACK
+//#define __DBACK
+
 #ifdef __DBACK
-#define __danya_back( ... )  __VA_ARGS__
+    #define  __danya_back( ... )  __VA_ARGS__
 #else
-#define __danya_back(...)
+    #define __danya_back(...)
 #endif
 
 #include "TxLib.h"
@@ -15,7 +16,7 @@
 #include <ctype.h>
 #include <locale.h>
 
-#define DEBUG
+//#define DEBUG
 
 #ifdef DEBUG
 #define dbg        if (1)
@@ -90,14 +91,14 @@ int main (int argc, char* argv[])
     Save_Original_Data (&file);
 
     Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
-    //Print_text (&file, file.str_data);
+    Print_text (&file, file.str_data);
 
     __danya_back(DBG_Print (&file);)
     Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
     Print_text (&file, file.str_data);
     __danya_back(printf("IN MAIN\n");)
 
-    //Print_text (&file, file.original_data);
+    Print_text (&file, file.original_data);
 
     Free (&file);
 
@@ -132,11 +133,11 @@ void Strings_Number (ONEGIN* file)
     char* buffer_addr = file-> buffer_addr;
     assert (buffer_addr);
 
-    buffer_addr[file->fsize] = '#';
-    buffer_addr[(file->fsize)-1] = '\0';
+    buffer_addr[file->fsize] = '\n';
+    long fsize = file->fsize;
 
-    long string_quantity = 1;
-    while (*buffer_addr != '#')
+    long string_quantity = 0;
+    for (int i = 0; i < fsize; i++)
     {
         if (*buffer_addr == '\r')
             *buffer_addr = '\0';
@@ -191,11 +192,13 @@ void Address_String (ONEGIN* file)
 
     char* buffer_addr = file->buffer_addr;
     long n_string = 1;
+    long fsize = file->fsize;
     str_data[0].str_addr = buffer_addr;
+
     dbg printf("  ADDR_STR str_data = %llu\n", str_data);
     dbg printf("ADDR_STR: adrr begin str = %llu\n", str_data[0].str_addr);
 
-    while(*buffer_addr != '#')
+    for (int i = 0; i < fsize - 1; i++)
     {
         if (*buffer_addr == '\n')
         {
@@ -205,14 +208,12 @@ void Address_String (ONEGIN* file)
             dbg printf("ADDR_STR: adrr end str = %llu\n", str_data[n_string-1].end_addr);
             dbg printf("ADDR_STR: adrr begin str = %llu\n", str_data[n_string].str_addr);
 
-
             n_string++;
         }
         buffer_addr++;
     }
     str_data[n_string-1].end_addr = buffer_addr - 1;
-   file->buffer_addr[file->fsize-1] = '\n';
-   file->buffer_addr[file->fsize] = '\n';
+
     dbg printf("addr buffer_addr = %llu\n", buffer_addr);
     dbg printf("buffer_addr[file->fsize-1] = <%d>\n", buffer_addr[file->fsize-1]);
     dbg printf("buffer_addr[file->fsize-1] = <%d>\n", buffer_addr[file->fsize-1]);
