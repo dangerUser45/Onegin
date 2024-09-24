@@ -59,6 +59,7 @@ int Forward_Strcompare (const void*  a, const void* b);
 int Back_Strcmp (const char* first_string, const char* second_string);
 int Back_Strcompare (const void*  a, const void* b);
 void Save_Original_Data (ONEGIN* file);
+void Print_all_version (ONEGIN file);
 __danya_back(void DBG_Print (ONEGIN* file);)
 
 int main (int argc, char* argv[])
@@ -90,15 +91,7 @@ int main (int argc, char* argv[])
 
     Save_Original_Data (&file);
 
-    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
-    Print_text (&file, file.str_data);
-
-    __danya_back(DBG_Print (&file);)
-    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
-    Print_text (&file, file.str_data);
-    __danya_back(printf("IN MAIN\n");)
-
-    Print_text (&file, file.original_data);
+    Print_all_version (file);
 
     Free (&file);
 
@@ -212,7 +205,7 @@ void Address_String (ONEGIN* file)
         }
         buffer_addr++;
     }
-    str_data[n_string-1].end_addr = buffer_addr - 1;
+    str_data[n_string-1].end_addr = buffer_addr;
 
     dbg printf("addr buffer_addr = %llu\n", buffer_addr);
     dbg printf("buffer_addr[file->fsize-1] = <%d>\n", buffer_addr[file->fsize-1]);
@@ -358,13 +351,22 @@ int Back_Strcmp (const STRING* first_string, const STRING* second_string)
     dedlox++;
 
 
-    int i = 0;
-    for (int cnt = 0; cnt < min; i--, cnt++)
-    {
-        if (toupper(end1[i]) == toupper(end2[i]))
-            continue;
-        __danya_back(printf("cnt = %d\n", cnt);)
+    int i = 0, j = 0;
 
+    for (int cnt = 0; cnt < min; i--, j--, cnt++)
+    {
+        while (ispunct (end1[i])) i--;
+        while (ispunct (end2[j])) j--;
+        __danya_back(printf("Punct is skipped: end1[%d] = %d; end2[%d] = %d\n", i, end1[i], j, end2[j]);)
+
+
+        if (toupper(end1[i]) == toupper(end2[i]))
+        {
+
+
+            continue;
+        }
+        __danya_back(printf("cnt = %d\n", cnt);)
         __danya_back(printf("<%c> - <%c> = %d\n", end1[i], end2[i], end1[i] - end2[i]);)
         __danya_back(printf("end1[i] - end2[i] = %d\n", end1[i] - end2[i]);)
         return end1[i] - end2[i];
@@ -402,5 +404,20 @@ __danya_back(void DBG_Print (ONEGIN* file)
         printf("Symbol = <%c>, his addr = %llu\n", file->buffer_addr[i], file->buffer_addr + i);
     printf("=============================================================================\n");
 })
+//=============================================================================
+void Print_all_version (ONEGIN file)
+{
+    puts("    Text in forward sort\n");
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
+    Print_text (&file, file.str_data);
+    __danya_back(DBG_Print (&file);)
 
+    puts("    Text in back sort\n");
+    Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Back_Strcompare);
+    Print_text (&file, file.str_data);
+    __danya_back(printf("IN MAIN\n");)
+
+    puts("    Text original\n");
+    Print_text (&file, file.original_data);
+}
 
