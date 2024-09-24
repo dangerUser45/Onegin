@@ -407,7 +407,7 @@ __danya_back(void DBG_Print (ONEGIN* file)
 //=============================================================================
 void Print_all_version (ONEGIN file)
 {
-    puts("    Text in forward sort\n");
+    puts("\n    Text in forward sort\n");
     Self_Sort (file.str_data, file.string_quantity, sizeof(file.str_data[0]), Forward_Strcompare);
     Print_text (&file, file.str_data);
     __danya_back(DBG_Print (&file);)
