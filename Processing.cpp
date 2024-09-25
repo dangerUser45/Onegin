@@ -1,12 +1,5 @@
-#include "Def_onegin.h"\
-
-void File_Common (ONEGIN* file);
-long file_size (const char * name);
-void Strings_Number (ONEGIN* file);
-void Read_File (ONEGIN* file);
-void Check_fsize (long fsize);
-void Check_argc (int argc);
-void Address_String (ONEGIN* file);
+#include "General.h"
+#include "Processing.h"
 
 void File_Common (ONEGIN* file)
 {
@@ -125,3 +118,11 @@ void Address_String (ONEGIN* file)
 
 }
 //=============================================================================
+void Free (ONEGIN* file)
+{
+    free (file->buffer_addr);
+    free (file->str_data);
+
+    assert (file->buffer_addr);
+    assert (file->str_data);
+}
